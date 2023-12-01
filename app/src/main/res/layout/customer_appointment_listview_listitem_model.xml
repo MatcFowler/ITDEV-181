@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:orientation="vertical">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:background="@color/light_blue" android:baselineAligned="false">
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" android:layout_weight="4" android:layout_marginLeft="4dp"
+                android:background="@color/blue_grey" android:layout_marginBottom="4dp" android:layout_marginTop="4dp">
+            <TextView
+                    android:text="@string/customer_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/customer_model_name_textview"
+                    android:gravity="center_horizontal" android:layout_marginTop="5dp" android:textStyle="bold"
+                    android:textColor="@color/white"/>
+            <TextView
+                    android:text="@string/customer_serivces"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/customer_services_textview"
+                    android:gravity="center_horizontal" android:layout_marginTop="5dp" android:textStyle="bold"
+                    android:textColor="@color/white"/>
+            <TextView
+                    android:text="@string/date"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/customer_model_date_textview"
+                    android:textStyle="bold"
+                    android:textSize="16sp" android:gravity="center_horizontal"
+                    android:textColor="@color/white" android:layout_marginTop="10dp"/>
+            <TextView
+                    android:text="@string/time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/customer_model_time_textview"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/white" android:textStyle="bold"
+                    android:textSize="16sp" android:layout_marginBottom="10dp"/>
+        </LinearLayout>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" android:layout_weight="4" android:layout_marginRight="4dp"
+                android:background="@color/blue_grey" android:layout_marginBottom="4dp" android:layout_marginTop="4dp">
+            <TextView
+                    android:text="@string/phone_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/customer_model_phone_number_textview"
+                    android:gravity="center_horizontal" android:layout_marginTop="20dp"
+                    android:textColor="@color/white" android:textStyle="bold"/>
+            <TextView
+                    android:text="@string/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/customer_model_email_textview"
+                    android:gravity="center_horizontal" android:layout_marginTop="20dp"
+                    android:textColor="@color/white" android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

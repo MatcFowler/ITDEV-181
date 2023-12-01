@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="buttonStyle">@style/BlueGreyGradientButtonStyle</item>
+    </style>
+
+    <style name="BlueGreyGradientButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/blue_light_blue_gradient</item>
+        <item name="android:textColor">@color/pearl_white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BlueLightBlueGradientEditTextStyle" parent="Widget.AppCompat.EditText">
+        <item name="android:background">@drawable/blue_light_blue_gradient_border</item>
+        <item name="android:textColor">@color/pearl_white</item>
+    </style>
+
+    <style name="Button.blue" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/light_blue</item>
+    </style>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".user_main_page" android:orientation="vertical" android:layout_margin="0dp"
+        android:background="@color/blue_grey">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="6" android:layout_margin="80dp"
+            android:background="@color/blue_grey">
+        <Button
+                android:text="@string/view_appointments"
+                android:layout_width="match_parent"
+                android:layout_height="1dp" android:id="@+id/view_appointments_button2" android:layout_weight="1"
+                android:layout_marginBottom="50dp" style="@style/Button.blue"
+                android:theme="@style/Button.blue" android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+        <Button
+                android:text="@string/add_your_business"
+                android:layout_width="match_parent"
+                android:layout_height="0dp" android:id="@+id/add_business_button" android:layout_weight="1"
+                style="@style/Button.blue"
+                android:theme="@style/Button.blue" android:textAppearance="@style/TextAppearance.AppCompat.Large"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="1"
+            android:layout_gravity="center_horizontal" android:layout_marginBottom="10dp">
+        <ImageView
+                android:src="@drawable/personal_page_vector"
+                android:layout_width="wrap_content" android:tag="Business_Needs_Page_Users_Page"
+                android:layout_height="wrap_content" android:id="@+id/search_page_personal_page_nav_imageview"
+                android:layout_weight="1" android:contentDescription="@string/personal_page_image"/>
+        <ImageView
+                android:src="@drawable/add_bussiness_vector"
+                android:layout_width="wrap_content" android:tag="Business_Needs_Page_Book_Appointment_Page"
+                android:layout_height="wrap_content" android:id="@+id/add_businessl_page_nav_imageview"
+                android:layout_weight="1" android:contentDescription="@string/booking_page_imageview"/>
+        <ImageView
+                android:src="@drawable/business_center_vector"
+                android:layout_width="wrap_content" android:tag="Business_Needs_Page_Business_Needs_Page"
+                android:layout_height="wrap_content" android:id="@+id/business_needs_page_nav_imageview"
+                android:layout_weight="1" android:contentDescription="@string/business_needs_imageview"/>
+    </LinearLayout>
+</LinearLayout>
